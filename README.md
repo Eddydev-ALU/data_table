@@ -1,16 +1,56 @@
-# data_table
+# Data Table
 
-A new Flutter project.
+A Flutter application demonstrating the DataTable widget for displaying tabular data in a structured format.
 
-## Getting Started
+## Run Instructions
 
-This project is a starting point for a Flutter application.
+1. Ensure Flutter is installed on your system
+2. Clone this repository
+3. Navigate to the project directory:
+   ```bash
+   cd data_table
+   ```
+4. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+5. Run the application:
+   ```bash
+   flutter run
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+## Key DataTable Attributes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project demonstrates three key DataTable attributes:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **columns**: Defines the column headers of the table using DataColumn widgets
+- **rows**: Contains the actual data rows using DataRow and DataCell widgets  
+- **showCheckboxColumn**: Enables row selection with checkboxes (demonstrated in advanced example)
+
+## Features
+
+The app includes two examples accessible via the toggle button:
+
+**Basic DataTable**: Simple table displaying name, age, and role information
+
+**Advanced DataTable**: Enhanced table with:
+- Row selection with checkboxes
+- Color-coded rows based on status (Active/Inactive)
+- Interactive action buttons (Edit/Delete)
+- Custom cell styling with badges and icons
+- Delete functionality with feedback
+
+## Screenshots
+
+### Basic DataTable View
+![Basic DataTable](Screenshots/Screenshot%202026-02-17%20at%2013.56.46.png)
+
+### Advanced DataTable View
+![Advanced DataTable](Screenshots/Screenshot%202026-02-17%20at%2013.57.11.png)
+
+### Advanced DataTable with Actions
+![Advanced DataTable Actions](Screenshots/Screenshot%202026-02-17%20at%2013.57.22.png)
+
+## Development Notes
+
+**Important**: Use meaningful commit messages throughout development. Single "final" commits without proper git history will result in point deductions.
