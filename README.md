@@ -50,7 +50,3 @@ The app includes two examples accessible via the toggle button:
 
 ### Advanced DataTable with Actions
 ![Advanced DataTable Actions](Screenshots/Screenshot%202026-02-17%20at%2013.57.22.png)
-
-## Development Notes
-
-**Important**: Use meaningful commit messages throughout development. Single "final" commits without proper git history will result in point deductions.
